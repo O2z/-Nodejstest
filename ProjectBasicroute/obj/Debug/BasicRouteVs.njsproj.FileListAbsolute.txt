@@ -1,0 +1,3 @@
+C:\Users\o2\Desktop\Project\ProjectBasicroute\obj\Debug\BasicRouteVs.njsprojAssemblyReference.cache
+C:\Users\o2\Desktop\Project\ProjectBasicroute\obj\Debug\BasicRouteVs.njsproj.CoreCompileInputs.cache
+C:\Users\o2\Desktop\Project\ProjectBasicroute\bin\Microsoft.NodejsTools.WebRole.dll
