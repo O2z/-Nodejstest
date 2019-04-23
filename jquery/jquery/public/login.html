@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Simple login</title>
+        <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            var user,pass;
+            $("#submit").click(function(){
+                user=$("#txtUsername").vail();
+                pass=$("#txtPassword").vail();
+                $.post("http://locallhost:3000/login",{txtUsername: user,txtPassword: pass}, function(data){
+                    if(data)
+                    {
+                        alert("Login สำเร็จ");
+                    }
+                });
+            });
+        });
+        </script>       
+    </head>
+
+    <body>
+        <h1>Login</h1>
+        Username: <input type="text" id="txtUsername" maxlength="16"<br>
+        Password:<input type="password" id="txtPassword" maxlength="16"<br>
+        <input type="button" id="submit" value="Submit">
+    </body>
+</html>
