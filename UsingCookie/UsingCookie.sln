@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "UsingCookie", "UsingCookie\UsingCookie.njsproj", "{0E7A877D-37B8-4712-8D76-5FAD66CA04BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7A877D-37B8-4712-8D76-5FAD66CA04BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7A877D-37B8-4712-8D76-5FAD66CA04BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7A877D-37B8-4712-8D76-5FAD66CA04BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7A877D-37B8-4712-8D76-5FAD66CA04BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76E90D11-3E60-4840-B10C-8E108F856CD0}
+	EndGlobalSection
+EndGlobal
